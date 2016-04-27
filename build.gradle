@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+  compileSdkVersion 20
+  buildToolsVersion "20.0.0"
+
+  defaultConfig {
+    applicationId "com.example.jutao.exg"
+    minSdkVersion 10
+    targetSdkVersion 20
+    versionCode 1
+    versionName "1.0"
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+}
+repositories {
+  flatDir {
+    dirs 'libs'
+  }
+}
+dependencies {
+  compile fileTree(include: ['*.jar'], dir: 'libs')
+  testCompile 'junit:junit:4.12'
+  compile files('libs/volley.jar')
+  compile files('libs/BaiduLBS_Android.jar')
+  compile 'com.android.support:appcompat-v7:20.0.0'
+  compile files('libs/fastjson-1.2.5.jar')
+  compile files('libs/MobCommons-2016.0303.1229.jar')
+  compile files('libs/MobTools-2016.0303.1229.jar')
+  compile name:'SMSSDK-2.0.2', ext:'aar'
+  compile name:'SMSSDKGUI-2.0.2', ext:'aar'
+}

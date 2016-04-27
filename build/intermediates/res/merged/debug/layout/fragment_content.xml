@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+  <com.example.jutao.exg.view.NoScroViewPager
+      android:id="@+id/novp_content"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      ></com.example.jutao.exg.view.NoScroViewPager>
+  <RadioGroup
+      android:id="@+id/rg_content"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bottom_tab_bg"
+      android:gravity="center"
+      android:orientation="horizontal"
+      >
+    <RadioButton
+        android:id="@+id/rb_home"
+        android:drawableTop="@drawable/tab_home_selector"
+        android:text="服务"
+        android:checked="true"
+        style="@style/Bottom_Tab_style"
+        />
+    <RadioButton
+        android:id="@+id/rb_smart"
+        android:drawableTop="@drawable/tab_smart_selector"
+        android:text="赚钱"
+        style="@style/Bottom_Tab_style"
+        />
+    <RadioButton
+        android:id="@+id/rb_set"
+        android:drawableTop="@drawable/tab_setting_selector"
+        android:text="我的"
+        style="@style/Bottom_Tab_style"
+        />
+
+  </RadioGroup>
+</LinearLayout>

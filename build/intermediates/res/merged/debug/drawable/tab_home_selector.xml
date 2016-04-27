@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:drawable="@drawable/home_press" android:state_checked="true"></item>
+  <item android:drawable="@drawable/home"></item>
+</selector>
+
+<!--最后特别提醒:系统是从上往下匹配的，
+    如果匹配到一个item那么它就将采用这个item，
+    而不是采用的最佳匹配的规则,所以设置缺省的状态，
+    一定要写在最后，很多人为了保险起见，一开始就把
+    缺省的写好，那么这样后面所有的item就都不会起作
+    用了,还会因此找不着哪里出了问题。-->
