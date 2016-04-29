@@ -344,6 +344,10 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="crop__selector_pressed">#1a000000</color>
     <color name="smssdk_black">#ff000000</color>
     <color name="smssdk_gray">#ff898989</color>
     <color name="smssdk_gray_press">#fff2f2f2</color>
@@ -422,10 +426,16 @@
     <string name="btn_login_string">登陆</string>
     <string name="btn_reg_string">注册</string>
     <string name="btn_start">开始体验</string>
+    <string name="categry">是否维修员</string>
+    <string name="gender">性别</string>
+    <string name="head_image">头像</string>
     <string name="login_accept">账号</string>
     <string name="login_hint">请输入账号</string>
     <string name="login_password">密码</string>
     <string name="login_reg">请输入手机号码</string>
+    <string name="my_adress">我的地址</string>
+    <string name="neck_name">昵称</string>
+    <string name="out_login">退出登录</string>
     <string name="password_hint">请输入登录密码</string>
     <string name="password_hint_two">确认登录密码</string>
     <string name="reg_number">请输入短信验证码</string>
@@ -569,6 +579,8 @@
     <string name="smssdk_write_mobile_phone">请填写手机号码</string>
     <string name="smssdk_write_right_mobile_phone">请填写正确的手机号码</string>
     <string name="smssdk_your_ccount_is_verified">验证成功</string>
+    <string name="user_id">用户账号</string>
+    <string name="usertype">已认证资格</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
     <!-- Customize your theme here. -->
   </style>

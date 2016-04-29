@@ -12,4 +12,12 @@
   <string name="reg_number">请输入短信验证码</string>
   <string name="password_hint_two">确认登录密码</string>
   <string name="btn_getreg_sdtring">获取验证码</string>
+  <string name="head_image">头像</string>
+  <string name="neck_name">昵称</string>
+  <string name="user_id">用户账号</string>
+  <string name="my_adress">我的地址</string>
+  <string name="gender">性别</string>
+  <string name="categry">是否维修员</string>
+  <string name="usertype">已认证资格</string>
+  <string name="out_login">退出登录</string>
 </resources>

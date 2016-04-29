@@ -10,7 +10,7 @@ import com.example.jutao.exg.MainActivity;
 import com.example.jutao.exg.R;
 
 /**
- * 五个标签页的基类
+ * 标签页的基类
  */
 public class BasePager {
   public Activity mActivity;

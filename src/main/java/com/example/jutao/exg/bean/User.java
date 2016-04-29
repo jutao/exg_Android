@@ -6,50 +6,50 @@ package com.example.jutao.exg.bean;
 public class User {
 
   /**
-   * address_area : 130406
-   * address_city : 130400
+   * address_area : 顺城区
+   * address_city : 抚顺市
    * address_details :
-   * address_province : 130000
+   * address_province : 辽宁省
    * bank_branch :
-   * bankname : 20
+   * bankname :
    * card_number :
-   * category : 1
-   * email : 342877@qq.com
-   * gender : 1
+   * category : 否
+   * email :
+   * gender : 男
    * gesture_password :
    * hometown :
-   * icon : /image/icon/icon_570a23401b9b2.png
-   * id : xxxxx1
-   * id_number : 123
+   * icon :
+   * id : PK14618868649890FA629178313E0A1B735E1C8DE45254C338E3E2C
+   * id_number :
    * interest :
    * invalid : 0
    * level : 1
-   * login_password :
-   * name : 李爱民
-   * nickname : 小兔子
+   * login_password : 147258
+   * name :
+   * nickname :
    * occupation :
-   * qualificat : /image/qualificat/qualificat_570a3e53d4ebe.png
+   * qualificat :
    * recommender_code :
    * trading_password :
-   * userid : 15861175521
-   * usertype : 10,20,30
+   * userid : 15861175821
+   * usertype : 锁匠,电工,管道工
    */
 
-  private int address_area;
-  private int address_city;
+  private String address_area;
+  private String address_city;
   private String address_details;
-  private int address_province;
+  private String address_province;
   private String bank_branch;
-  private int bankname;
+  private String bankname;
   private String card_number;
-  private int category;
+  private String category;
   private String email;
-  private int gender;
+  private String gender;
   private String gesture_password;
   private String hometown;
   private String icon;
   private String id;
-  private int id_number;
+  private String id_number;
   private String interest;
   private int invalid;
   private int level;
@@ -63,19 +63,19 @@ public class User {
   private String userid;
   private String usertype;
 
-  public int getAddress_area() {
+  public String getAddress_area() {
     return address_area;
   }
 
-  public void setAddress_area(int address_area) {
+  public void setAddress_area(String address_area) {
     this.address_area = address_area;
   }
 
-  public int getAddress_city() {
+  public String getAddress_city() {
     return address_city;
   }
 
-  public void setAddress_city(int address_city) {
+  public void setAddress_city(String address_city) {
     this.address_city = address_city;
   }
 
@@ -87,11 +87,11 @@ public class User {
     this.address_details = address_details;
   }
 
-  public int getAddress_province() {
+  public String getAddress_province() {
     return address_province;
   }
 
-  public void setAddress_province(int address_province) {
+  public void setAddress_province(String address_province) {
     this.address_province = address_province;
   }
 
@@ -103,11 +103,11 @@ public class User {
     this.bank_branch = bank_branch;
   }
 
-  public int getBankname() {
+  public String getBankname() {
     return bankname;
   }
 
-  public void setBankname(int bankname) {
+  public void setBankname(String bankname) {
     this.bankname = bankname;
   }
 
@@ -119,11 +119,11 @@ public class User {
     this.card_number = card_number;
   }
 
-  public int getCategory() {
+  public String getCategory() {
     return category;
   }
 
-  public void setCategory(int category) {
+  public void setCategory(String category) {
     this.category = category;
   }
 
@@ -135,11 +135,11 @@ public class User {
     this.email = email;
   }
 
-  public int getGender() {
+  public String getGender() {
     return gender;
   }
 
-  public void setGender(int gender) {
+  public void setGender(String gender) {
     this.gender = gender;
   }
 
@@ -175,11 +175,11 @@ public class User {
     this.id = id;
   }
 
-  public int getId_number() {
+  public String getId_number() {
     return id_number;
   }
 
-  public void setId_number(int id_number) {
+  public void setId_number(String id_number) {
     this.id_number = id_number;
   }
 

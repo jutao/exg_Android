@@ -2,6 +2,7 @@ package com.example.jutao.exg;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -9,9 +10,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import com.alibaba.fastjson.JSON;
+import com.example.jutao.exg.bean.User;
+import com.example.jutao.exg.service.JudgeListener;
 import com.example.jutao.exg.service.SMSListener;
+import com.example.jutao.exg.util.Config;
 import com.example.jutao.exg.util.CreateUser;
+import com.example.jutao.exg.util.PrefUtils;
 import com.example.jutao.exg.util.SMSUtil;
+import com.example.jutao.exg.volleydemo.MyApplication;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -27,21 +34,29 @@ public class RegActivity extends Activity {
 
   private final int CLICKABLE = 0;
   private final int DISCLICKABLE = 1;
-
+  private final int JUMPINTENT = 2;
   SMSUtil smsUtil;
 
   private Handler handler = new Handler() {
     @Override public void handleMessage(Message msg) {
+      String btn_text;
       switch (msg.what) {
         case CLICKABLE:
           btnGetReg.setClickable(true);
+          btn_text = msg.getData().getString("btn_text");
+          btnGetReg.setText(btn_text);
           break;
         case DISCLICKABLE:
           btnGetReg.setClickable(false);
+          btn_text = msg.getData().getString("btn_text");
+          btnGetReg.setText(btn_text);
+          break;
+        case JUMPINTENT:
+          Intent intent = new Intent(context, MainActivity.class);
+          startActivity(intent);
+          finish();
           break;
       }
-      String btn_text = msg.getData().getString("btn_text");
-      btnGetReg.setText(btn_text);
     }
   };
 
@@ -101,28 +116,42 @@ public class RegActivity extends Activity {
      * 注册账号
      */
     private void doReg() {
-      String username = edRegAccept.getText().toString().trim();
-      String code = edRegNumber.getText().toString().trim();
-      String password = edRegPassword.getText().toString().trim();
-      String password_two = edRegPasswordtwo.getText().toString().trim();
-      if (StringNoEmpty(username)
-          && StringNoEmpty(code)
-          && StringNoEmpty(password)
-          && StringNoEmpty(password_two)
-          && password.equals(password_two)) {
+      final String username = edRegAccept.getText().toString().trim();
+      final String code = edRegNumber.getText().toString().trim();
+      final String password = edRegPassword.getText().toString().trim();
+      final String password_two = edRegPasswordtwo.getText().toString().trim();
+      if (Config.StringNoEmpty(username) && Config.StringNoEmpty(code) && Config.StringNoEmpty(
+          password) && Config.StringNoEmpty(password_two) && password.equals(password_two)) {
 
-        //smsUtil.setSmsListener(username, code, new SMSListener() {
-        //
-        //  @Override public void onSucced() {
-        //    //创建账号
-        //  }
-        //
-        //  @Override public void onFailed(Throwable e) {
-        //    Toast.makeText(context, "验证失败", Toast.LENGTH_LONG).show();
-        //  }
-        //});
-        //
-        CreateUser createUser=new CreateUser(context,username,password);
+        smsUtil.setSmsListener(username, code, new SMSListener() {
+
+          @Override public void onSucced() {
+            //创建账号
+            CreateUser createUser =
+                new CreateUser(context, username, password, new JudgeListener() {
+                  @Override public void getJudge(boolean result) {
+                    if (result) {
+                      Message msg = Message.obtain();
+                      msg.what = JUMPINTENT;
+                      handler.sendMessage(msg);
+                      String userString = PrefUtils.getString(context, "userInfo", null);
+                      User user = JSON.parseObject(userString, User.class);
+                      if (user != null) {
+                        MyApplication.user = user;
+                      }
+                    }
+                  }
+
+                  @Override public void Failed() {
+
+                  }
+                });
+          }
+
+          @Override public void onFailed(Throwable e) {
+            Toast.makeText(context, "验证失败", Toast.LENGTH_LONG).show();
+          }
+        });
       } else {
         Toast.makeText(context, "输入有误", Toast.LENGTH_LONG).show();
       }
@@ -135,7 +164,7 @@ public class RegActivity extends Activity {
       //用户输入的手机号
       final String username = edRegAccept.getText().toString().trim();
 
-      if (StringNoEmpty(username) && username.length() == 11) {
+      if (Config.StringNoEmpty(username) && username.length() == 11) {
         smsUtil.setPhoneNumber(username);
         smsUtil.GetSMSVer();
         countButton();
@@ -177,14 +206,6 @@ public class RegActivity extends Activity {
         第三个参数就是执行的周期，为long类型。*/
       timer.schedule(timeTask, 0, 1000);
       //timeTask.cancel();
-    }
-
-    /**
-     * 判断字符串是否为空
-     */
-    public boolean StringNoEmpty(String str) {
-      if (str != null && !str.equals("")) return true;
-      return false;
     }
   }
 }

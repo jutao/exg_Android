@@ -1,7 +1,6 @@
 package com.example.jutao.exg.util;
 
 import android.content.Context;
-import android.util.Log;
 import android.widget.Toast;
 import com.alibaba.fastjson.JSON;
 import com.android.volley.Request;
@@ -11,20 +10,23 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.example.jutao.exg.bean.User;
 import com.example.jutao.exg.service.JudgeListener;
 import com.example.jutao.exg.volleydemo.MyApplication;
+import java.io.UnsupportedEncodingException;
 import org.json.JSONObject;
 
 /**
  * Created by TIAN on 2016/4/27.
  */
 public class CreateUser {
-  private Context context;
+  private static Context context;
   private String userName;
   private String passWord;
+  private JudgeListener judgeListener;
 
-  public CreateUser(Context context, String userName, String passWord) {
+  public CreateUser(Context context, String userName, String passWord,JudgeListener judgeListener) {
     this.context = context;
     this.userName = userName;
     this.passWord = passWord;
+    this.judgeListener=judgeListener;
     createUser();
   }
 
@@ -37,7 +39,7 @@ public class CreateUser {
       String jsonString = JSON.toJSONString(user);
       JSONObject jsonObject = new JSONObject(jsonString);
 
-      String url = "http://192.168.0.110:8080/exg/service/createuser";
+      String url = Config.ADRESS+"/service/createuser";
       JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, url, jsonObject,
           new Response.Listener<JSONObject>() {
             @Override public void onResponse(JSONObject response) {
@@ -48,7 +50,15 @@ public class CreateUser {
                 } else if (code.equals("0")) {
                   Toast.makeText(context, "注册失败", Toast.LENGTH_LONG).show();
                 } else if (code.equals("1")) {
-                  Toast.makeText(context, "注册成功", Toast.LENGTH_LONG).show();
+
+                  PrefUtils.setString(context,"username",userName);
+                  PrefUtils.setString(context, "password", passWord);
+                  if(judgeListener!=null){
+                    JSONObject object = new JSONObject(response.get("user").toString());
+                    ObjectToBean.Userjson(object, context);
+                    judgeListener.getJudge(true);
+                  }
+
                 }
               } catch (Exception e) {
                 e.printStackTrace();

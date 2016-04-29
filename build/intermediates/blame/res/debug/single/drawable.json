@@ -16,12 +16,12 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\navi_map_gps_locked.png"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_country_group_scroll_down.xml"
-    },
-    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_point_gray.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\shape_point_gray.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_country_group_scroll_down.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\login_password.png",
@@ -70,6 +70,10 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_bg_selector.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_country_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\title_yellow_bg.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\title_yellow_bg.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
@@ -282,6 +286,10 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\pop_menu.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\pop_menu.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button.xml",

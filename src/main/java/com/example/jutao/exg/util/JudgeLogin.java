@@ -1,7 +1,6 @@
 package com.example.jutao.exg.util;
 
 import android.content.Context;
-import android.util.Log;
 import android.widget.Toast;
 import com.alibaba.fastjson.JSON;
 import com.android.volley.Request;
@@ -35,16 +34,23 @@ public class JudgeLogin {
 
     try {
       String jsonString = JSON.toJSONString(user);
-      JSONObject jsonObject = new JSONObject(jsonString);
+      final JSONObject jsonObject = new JSONObject(jsonString);
 
-      String url = "http://192.168.0.110:8080/exg/service/usercheck";
+      String url = Config.ADRESS+"/service/usercheck";
       JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, url, jsonObject,
           new Response.Listener<JSONObject>() {
+
             @Override public void onResponse(JSONObject response) {
               try {
-                //Log.d("Tag", response.get("result").toString());
                 //产生回调，使用钩子
-                judgeListener.getJudge(Boolean.valueOf(response.get("result").toString()));
+                if(judgeListener!=null){
+                  JSONObject object = new JSONObject(response.get("user").toString());
+                  ObjectToBean.Userjson(object, context);
+                  judgeListener.getJudge(Boolean.valueOf(response.get("result").toString()));
+
+                }
+
+
               } catch (Exception e) {
                 e.printStackTrace();
               }
@@ -53,9 +59,12 @@ public class JudgeLogin {
         @Override public void onErrorResponse(VolleyError error) {
           //Log.d("Tag", "error");
           Toast.makeText(context,"网络异常",Toast.LENGTH_LONG).show();
+          if(judgeListener!=null)
+          judgeListener.Failed();
+
         }
       });
-      request.setTag("abcRequest");
+      request.setTag("cbaRequest");
       MyApplication.getHttpQueues().add(request);
     } catch (Exception e) {
       e.printStackTrace();

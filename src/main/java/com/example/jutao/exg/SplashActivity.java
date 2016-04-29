@@ -1,8 +1,11 @@
 package com.example.jutao.exg;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -11,19 +14,51 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 import android.widget.RelativeLayout;
+import com.alibaba.fastjson.JSON;
+import com.example.jutao.exg.bean.User;
 import com.example.jutao.exg.service.JudgeListener;
+import com.example.jutao.exg.service.UserListener;
+import com.example.jutao.exg.util.Config;
+import com.example.jutao.exg.util.GetUserByid;
 import com.example.jutao.exg.util.JudgeLogin;
 import com.example.jutao.exg.util.PrefUtils;
+import com.example.jutao.exg.volleydemo.MyApplication;
 
 /**
  * 闪屏开始页面
  */
 public class SplashActivity extends Activity {
   private RelativeLayout rlRoot;
+  final int LOGINACTIVITY=1;
+  final int MAINACTIVITY=2;
+  final int GUIDEActivity=3;
+  Context context;
 
+  private Handler handler = new Handler() {
+    @Override public void handleMessage(Message msg) {
+      Intent intent = null;
+      switch (msg.what) {
+        case LOGINACTIVITY:
+          intent=new Intent(context,LoginActivity.class);
+          break;
+        case MAINACTIVITY:
+          intent=new Intent(context,MainActivity.class);
+          break;
+        case GUIDEActivity:
+          intent=new Intent(context,GuideActivity.class);
+          break;
+      }
+      if(intent!=null){
+        startActivity(intent);
+        finish();
+      }
+
+    }
+  };
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_splash);
+    context=this;
     initView();
     initAnimation();
   }
@@ -71,32 +106,32 @@ public class SplashActivity extends Activity {
         Log.d("TAG", "endend");
         //动画结束，跳转页面。
         //如果是第一次跳到新手引导页面，否则跳到主界面
-        Boolean isFirst = PrefUtils.getBoolean(SplashActivity.this, "is_first_enter", true);
-
-        final Intent[] intent = new Intent[1];
+        Boolean isFirst = PrefUtils.getBoolean(context, "is_first_enter", true);
         if (isFirst) {
-          intent[0] = new Intent(getApplicationContext(), GuideActivity.class);
+            Message msg=Message.obtain();
+            msg.what=GUIDEActivity;
+            handler.sendMessage(msg);
         } else {
           //从偏好设置中查看是否有记录的账号密码
-          String username=PrefUtils.getString(SplashActivity.this,"username",null);
-          String password=PrefUtils.getString(SplashActivity.this,"password",null);
-          if(username!=null&&!username.equals("")&&password!=null&&!password.equals("")){
-            JudgeLogin judgeLogin=new JudgeLogin(SplashActivity.this, username, password, new JudgeListener() {
-              @Override public void getJudge(boolean result) {
-                Log.d("Tag",result+"");
-                if(result){
-                  intent[0] = new Intent(getApplicationContext(), MainActivity.class);
-                }else{
-                  intent[0] =new Intent(getApplicationContext(),LoginActivity.class);
-                }
-              }
-            });
+          final String username=PrefUtils.getString(context,"username",null);
+          final String password=PrefUtils.getString(context,"password",null);
+          if(Config.StringNoEmpty(username)&&Config.StringNoEmpty(password)){
+
+            String userString=PrefUtils.getString(context,"userInfo",null);
+            //Log.d("Tag",userString);
+            User user = JSON.parseObject(userString, User.class);
+            //Log.d("Tag",user.getId());
+            MyApplication.setUser(user);
+            Message msg=Message.obtain();
+            msg.what=MAINACTIVITY;
+            handler.sendMessage(msg);
           }else{
-            intent[0] =new Intent(getApplicationContext(),LoginActivity.class);
+            Message msg=Message.obtain();
+            msg.what=LOGINACTIVITY;
+            handler.sendMessage(msg);
           }
         }
-        startActivity(intent[0]);
-        finish();
+
       }
 
       @Override public void onAnimationRepeat(Animation animation) {

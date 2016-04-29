@@ -7,8 +7,10 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.example.jutao.exg.R;
 import com.example.jutao.exg.base.BasePager;
 import com.example.jutao.exg.util.GetPositionBaidu;
 import com.example.jutao.exg.volleydemo.MyApplication;
@@ -27,6 +29,13 @@ public class HomePage extends BasePager {
   public HomePage(Activity mActivity) {
     super(mActivity);
   }
+
+  //@Override public View initView() {
+  //  Log.d("Tag","errrrr");
+  //  View view = View.inflate(mActivity, R.layout.activity_login, null);
+  //  return  view;
+  //}
+
   @Override public void initData() {
     TextView view=new TextView(mActivity);
     view.setText("我要报修");
@@ -41,7 +50,6 @@ public class HomePage extends BasePager {
     GetPositionBaidu getPositionBaidu=new GetPositionBaidu(mActivity);
     getPositionBaidu.initMap();
     setAdress();
-
   }
   private void  setAdress(){
     new Thread(new Runnable() {
