@@ -1,21 +1,28 @@
 package com.example.jutao.exg.bean;
 
+import java.util.List;
+
 /**
  * 用户类
  */
 public class User {
 
   /**
-   * address_area : 顺城区
-   * address_city : 抚顺市
+   * address_area : 210411
+   * address_areaName : 顺城区
+   * address_city : 210400
+   * address_cityName : 抚顺市
    * address_details :
-   * address_province : 辽宁省
+   * address_province : 210000
+   * address_provinceName :
    * bank_branch :
    * bankname :
    * card_number :
-   * category : 否
+   * category : 1
+   * categoryName : 是
    * email :
-   * gender : 男
+   * gender : 1
+   * genderName : 男
    * gesture_password :
    * hometown :
    * icon :
@@ -26,33 +33,37 @@ public class User {
    * level : 1
    * login_password : 147258
    * name :
-   * nickname :
+   * nickname : 大炮
    * occupation :
    * qualificat :
    * recommender_code :
    * trading_password :
    * userid : 15861175821
-   * usertype : 锁匠,电工,管道工
+   * usertype : 10,20,30
+   * usertypeName : 锁匠,电工,管道工
    */
 
   private String address_area;
+  private String address_areaName;
   private String address_city;
+  private String address_cityName;
   private String address_details;
   private String address_province;
+  private String address_provinceName;
   private String bank_branch;
   private String bankname;
   private String card_number;
-  private String category;
   private String email;
   private String gender;
+  private String genderName;
   private String gesture_password;
   private String hometown;
   private String icon;
   private String id;
   private String id_number;
   private String interest;
-  private int invalid;
-  private int level;
+  private String invalid;
+  private String level;
   private String login_password;
   private String name;
   private String nickname;
@@ -62,6 +73,18 @@ public class User {
   private String trading_password;
   private String userid;
   private String usertype;
+  private String usertypeName;
+  private String category;
+  private String categoryName;
+
+  public void setCategoryName(String categoryName) {
+    this.categoryName = categoryName;
+  }
+
+  public String getCategoryName() {
+
+    return categoryName;
+  }
 
   public String getAddress_area() {
     return address_area;
@@ -71,12 +94,28 @@ public class User {
     this.address_area = address_area;
   }
 
+  public String getAddress_areaName() {
+    return address_areaName;
+  }
+
+  public void setAddress_areaName(String address_areaName) {
+    this.address_areaName = address_areaName;
+  }
+
   public String getAddress_city() {
     return address_city;
   }
 
   public void setAddress_city(String address_city) {
     this.address_city = address_city;
+  }
+
+  public String getAddress_cityName() {
+    return address_cityName;
+  }
+
+  public void setAddress_cityName(String address_cityName) {
+    this.address_cityName = address_cityName;
   }
 
   public String getAddress_details() {
@@ -93,6 +132,14 @@ public class User {
 
   public void setAddress_province(String address_province) {
     this.address_province = address_province;
+  }
+
+  public String getAddress_provinceName() {
+    return address_provinceName;
+  }
+
+  public void setAddress_provinceName(String address_provinceName) {
+    this.address_provinceName = address_provinceName;
   }
 
   public String getBank_branch() {
@@ -119,14 +166,6 @@ public class User {
     this.card_number = card_number;
   }
 
-  public String getCategory() {
-    return category;
-  }
-
-  public void setCategory(String category) {
-    this.category = category;
-  }
-
   public String getEmail() {
     return email;
   }
@@ -141,6 +180,14 @@ public class User {
 
   public void setGender(String gender) {
     this.gender = gender;
+  }
+
+  public String getGenderName() {
+    return genderName;
+  }
+
+  public void setGenderName(String genderName) {
+    this.genderName = genderName;
   }
 
   public String getGesture_password() {
@@ -191,19 +238,19 @@ public class User {
     this.interest = interest;
   }
 
-  public int getInvalid() {
+  public String getInvalid() {
     return invalid;
   }
 
-  public void setInvalid(int invalid) {
+  public void setInvalid(String invalid) {
     this.invalid = invalid;
   }
 
-  public int getLevel() {
+  public String getLevel() {
     return level;
   }
 
-  public void setLevel(int level) {
+  public void setLevel(String level) {
     this.level = level;
   }
 
@@ -277,5 +324,21 @@ public class User {
 
   public void setUsertype(String usertype) {
     this.usertype = usertype;
+  }
+
+  public String getUsertypeName() {
+    return usertypeName;
+  }
+
+  public void setUsertypeName(String usertypeName) {
+    this.usertypeName = usertypeName;
+  }
+
+  public String getCategory() {
+    return category;
+  }
+
+  public void setCategory(String category) {
+    this.category = category;
   }
 }

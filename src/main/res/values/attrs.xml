@@ -16,32 +16,77 @@
 
 <resources>
 
-    <declare-styleable name="SlidingMenu">
-        <attr name="mode">
-            <enum name="left" value="0" />
-            <enum name="right" value="1" />
-        </attr>
-        <attr name="viewAbove" format="reference" />
-        <attr name="viewBehind" format="reference" />
-        <attr name="behindOffset" format="dimension" />
-        <attr name="behindWidth" format="dimension" />
-        <attr name="behindScrollScale" format="float" />
-        <attr name="touchModeAbove">
-            <enum name="margin" value="0" />
-            <enum name="fullscreen" value="1" />
-            <enum name="none" value="2" />
-        </attr>
-        <attr name="touchModeBehind">
-            <enum name="margin" value="0" />
-            <enum name="fullscreen" value="1" />
-            <enum name="none" value="2" />
-        </attr>
-        <attr name="shadowDrawable" format="reference" />
-        <attr name="shadowWidth" format="dimension" />
-        <attr name="fadeEnabled" format="boolean" />
-        <attr name="fadeDegree" format="float" />
-        <attr name="selectorEnabled" format="boolean" />
-        <attr name="selectorDrawable" format="reference" />
-    </declare-styleable>
-
+  <declare-styleable name="SlidingMenu">
+    <attr name="mode">
+      <enum name="left" value="0"/>
+      <enum name="right" value="1"/>
+    </attr>
+    <attr format="reference" name="viewAbove"/>
+    <attr format="reference" name="viewBehind"/>
+    <attr format="dimension" name="behindOffset"/>
+    <attr format="dimension" name="behindWidth"/>
+    <attr format="float" name="behindScrollScale"/>
+    <attr name="touchModeAbove">
+      <enum name="margin" value="0"/>
+      <enum name="fullscreen" value="1"/>
+      <enum name="none" value="2"/>
+    </attr>
+    <attr name="touchModeBehind">
+      <enum name="margin" value="0"/>
+      <enum name="fullscreen" value="1"/>
+      <enum name="none" value="2"/>
+    </attr>
+    <attr format="reference" name="shadowDrawable"/>
+    <attr format="dimension" name="shadowWidth"/>
+    <attr format="boolean" name="fadeEnabled"/>
+    <attr format="float" name="fadeDegree"/>
+    <attr format="boolean" name="selectorEnabled"/>
+    <attr format="reference" name="selectorDrawable"/>
+  </declare-styleable>
+  <declare-styleable name="CircleImageView">
+    <attr format="dimension" name="civ_border_width"/>
+    <attr format="color" name="civ_border_color"/>
+    <attr format="boolean" name="civ_border_overlay"/>
+    <attr format="color" name="civ_fill_color"/>
+  </declare-styleable>
+  <declare-styleable name="scv_CropImageView">
+    <attr name="scv_img_src" format="reference" />
+    <attr name="scv_crop_mode">
+      <enum name="fit_image" value="0"/>
+      <enum name="ratio_4_3" value="1"/>
+      <enum name="ratio_3_4" value="2"/>
+      <enum name="square" value="3"/>
+      <enum name="ratio_16_9" value="4"/>
+      <enum name="ratio_9_16" value="5"/>
+      <enum name="free" value="6"/>
+      <enum name="custom" value="7"/>
+      <enum name="circle" value="8"/>
+      <enum name="circle_square" value="9"/>
+    </attr>
+    <attr name="scv_background_color" format="reference|color"/>
+    <attr name="scv_overlay_color" format="reference|color"/>
+    <attr name="scv_frame_color" format="reference|color"/>
+    <attr name="scv_handle_color" format="reference|color"/>
+    <attr name="scv_guide_color" format="reference|color"/>
+    <attr name="scv_guide_show_mode">
+      <enum name="show_always" value="1"/>
+      <enum name="show_on_touch" value="2"/>
+      <enum name="not_show" value="3"/>
+    </attr>
+    <attr name="scv_handle_show_mode">
+      <enum name="show_always" value="1"/>
+      <enum name="show_on_touch" value="2"/>
+      <enum name="not_show" value="3"/>
+    </attr>
+    <attr name="scv_handle_size" format="dimension"/>
+    <attr name="scv_touch_padding" format="dimension"/>
+    <attr name="scv_min_frame_size" format="dimension"/>
+    <attr name="scv_frame_stroke_weight" format="dimension"/>
+    <attr name="scv_guide_stroke_weight" format="dimension"/>
+    <attr name="scv_crop_enabled" format="boolean"/>
+    <attr name="scv_initial_frame_scale" format="float"/>
+    <attr name="scv_animation_enabled" format="boolean"/>
+    <attr name="scv_animation_duration" format="integer"/>
+    <attr name="scv_handle_shadow_enabled" format="boolean"/>
+  </declare-styleable>
 </resources>

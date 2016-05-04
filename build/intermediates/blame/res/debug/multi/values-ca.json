@@ -11,7 +11,14 @@
                     "endOffset": 168
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 117,
+                        "endOffset": 169
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 274
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 105,
+                        "endOffset": 275
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 381
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 106,
+                        "endOffset": 382
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 464
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 387,
+                        "endColumn": 82,
+                        "endOffset": 465
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 572
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 470,
+                        "endColumn": 107,
+                        "endOffset": 573
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 698
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 578,
+                        "endColumn": 125,
+                        "endOffset": 699
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 809
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 704,
+                        "endColumn": 110,
+                        "endOffset": 810
+                    }
                 }
             },
             {
@@ -95,7 +144,14 @@
                     "endOffset": 918
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 815,
+                        "endColumn": 108,
+                        "endOffset": 919
+                    }
                 }
             },
             {
@@ -107,7 +163,14 @@
                     "endOffset": 1016
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 924,
+                        "endColumn": 97,
+                        "endOffset": 1017
+                    }
                 }
             },
             {
@@ -119,7 +182,14 @@
                     "endOffset": 1126
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1022,
+                        "endColumn": 109,
+                        "endOffset": 1127
+                    }
                 }
             },
             {
@@ -131,7 +201,14 @@
                     "endOffset": 1230
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1132,
+                        "endColumn": 103,
+                        "endOffset": 1231
+                    }
                 }
             },
             {
@@ -143,7 +220,14 @@
                     "endOffset": 1338
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1236,
+                        "endColumn": 107,
+                        "endOffset": 1339
+                    }
                 }
             },
             {
@@ -155,7 +239,14 @@
                     "endOffset": 1461
                 },
                 "from": {
-                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml"
+                    "file": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\values-ca\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1344,
+                        "endColumn": 122,
+                        "endOffset": 1462
+                    }
                 }
             }
         ]

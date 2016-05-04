@@ -10,6 +10,7 @@ import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.MyLocationConfiguration;
 import com.baidu.mapapi.map.MyLocationData;
 import com.example.jutao.exg.R;
+import com.example.jutao.exg.service.AdressListener;
 import com.example.jutao.exg.volleydemo.MyApplication;
 
 /**
@@ -17,10 +18,12 @@ import com.example.jutao.exg.volleydemo.MyApplication;
  */
 public class GetPositionBaidu {
   Activity mActivity;
-
-  public GetPositionBaidu(Activity mActivity) {
+  AdressListener adressListener;
+  public GetPositionBaidu(Activity mActivity,AdressListener adressListener) {
 
     this.mActivity = mActivity;
+    this.adressListener=adressListener;
+    initMap();
   }
 
   // 定位相关
@@ -36,7 +39,8 @@ public class GetPositionBaidu {
   private BitmapDescriptor mIconLocation;
 
   private float mCurrentX;
-  String adress;
+
+
 
   public void initMap() {
     // 初始化定位
@@ -81,9 +85,11 @@ public class GetPositionBaidu {
       isFirstIn = false;
       //Toast.makeText(mActivity, location.getAddrStr(), Toast.LENGTH_LONG).show();
       mLocationClient.stop();
-      MyApplication.adress = location.getAddrStr();
       //Log.d("TAG", MyApplication.getAdress());
 
+      if(adressListener!=null){
+        adressListener.getAdress(location.getCity(),location.getDistrict(),location.getStreet());
+      }
     }
   }
 

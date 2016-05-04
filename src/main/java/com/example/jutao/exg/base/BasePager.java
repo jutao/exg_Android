@@ -1,7 +1,6 @@
 package com.example.jutao.exg.base;
 
 import android.app.Activity;
-import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;

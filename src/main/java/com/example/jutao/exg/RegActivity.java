@@ -35,6 +35,7 @@ public class RegActivity extends Activity {
   private final int CLICKABLE = 0;
   private final int DISCLICKABLE = 1;
   private final int JUMPINTENT = 2;
+  private final int NETFAIL=3;
   SMSUtil smsUtil;
 
   private Handler handler = new Handler() {
@@ -55,6 +56,9 @@ public class RegActivity extends Activity {
           Intent intent = new Intent(context, MainActivity.class);
           startActivity(intent);
           finish();
+          break;
+        case NETFAIL:
+          Toast.makeText(context, "网络异常", Toast.LENGTH_LONG).show();
           break;
       }
     }
@@ -143,7 +147,9 @@ public class RegActivity extends Activity {
                   }
 
                   @Override public void Failed() {
-
+                    Message msg = Message.obtain();
+                    msg.what = NETFAIL;
+                    handler.sendMessage(msg);
                   }
                 });
           }

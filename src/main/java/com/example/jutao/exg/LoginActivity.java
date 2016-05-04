@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -80,7 +79,7 @@ public class LoginActivity extends Activity {
             }
 
             @Override public void Failed() {
-
+              Toast.makeText(context, "网络异常", Toast.LENGTH_LONG).show();
             }
 
           });

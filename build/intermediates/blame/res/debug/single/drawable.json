@@ -1,7 +1,15 @@
 [
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_share.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\icon_share.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_corners_bg_pre.xml",
@@ -12,20 +20,52 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\dot_focus.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\lock.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\lock.png"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\navi_map_gps_locked.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\navi_map_gps_locked.png"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_point_gray.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\shape_point_gray.xml"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_bg_default.jpg",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\chat_bg_default.jpg"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_country_group_scroll_down.xml"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_point_gray.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\shape_point_gray.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\me.jpg",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\me.jpg"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\login_password.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\login_password.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\chatfrom_bg_focused.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\chatfrom_bg_focused.9.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\login_edit_normal.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\login_edit_normal.9.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\newscenter_press.png",
@@ -36,16 +76,20 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\pic_item_list_default.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_item_bg_select.9.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\menu_item_bg_select.9.png"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\img_border.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\img_border.xml"
-    },
-    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\img_border.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\img_border.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\button_red_pressed.9.png",
@@ -64,16 +108,24 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\topic_title_arr.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\chatto_bg_focused.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\chatto_bg_focused.9.png"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_btn_disenable.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_btn_disenable.xml"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_bg_selector.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_country_bg_selector.xml"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\chatfrom_bg_pressed.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\chatfrom_bg_pressed.9.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\title_yellow_bg.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\title_yellow_bg.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_bg_selector.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_country_bg_selector.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
@@ -86,6 +138,10 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_text_color.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\tab_text_color.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\ask.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\ask.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\image_demo.jpg",
@@ -104,8 +160,16 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\login_username.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_guide_selector.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\txt_guide_selector.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_bar.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\bottom_bar.9.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\title_red_bg.png",
@@ -132,12 +196,24 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\back.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_arr_normal.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\menu_arr_normal.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
@@ -162,6 +238,10 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\maker.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\maker.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\govaffairs.png",
@@ -204,6 +284,10 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\progress_dialog_bg.9.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_horse_newyear.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\splash_horse_newyear.png"
     },
@@ -222,6 +306,10 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_pic_grid_type.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\icon_pic_grid_type.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\send_btn_pressed.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\send_btn_pressed.9.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -244,8 +332,16 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\xsearch_msg_pull_arrow_down.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\news_cate_arr.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\news_cate_arr.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\crop_image_ok.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\crop_image_ok.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_news_selector.xml",
@@ -260,6 +356,14 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\home_press.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\shua.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\shua.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\deng.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\deng.png"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_edittext_bg_selector.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_edittext_bg_selector.xml"
     },
@@ -268,12 +372,20 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\login_bg.jpg"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\chatto_bg_normal.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\chatto_bg_normal.9.png"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_dialog_btn_back.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_dialog_btn_back.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_press.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\setting_press.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\a02.jpg",
@@ -288,8 +400,8 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\pop_menu.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\pop_menu.xml"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button.xml",
@@ -320,6 +432,10 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_ic_clear_holo_light.xml"
     },
@@ -330,6 +446,14 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_textsize.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\icon_textsize.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\crop_image_cancel.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\crop_image_cancel.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\up_image_dialog_tv_bg.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\up_image_dialog_tv_bg.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\guide_1.jpg",
@@ -352,12 +476,28 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\send_btn_bg.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\send_btn_bg.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\icon.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\login_yan.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\login_yan.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\chatfrom_bg_normal.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\chatfrom_bg_normal.9.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_setting_selector.xml",
@@ -372,8 +512,24 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\icon_favorite.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\title_bar.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\title_bar.png"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\news_pic_default.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\news_pic_default.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\chatto_bg_pressed.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\chatto_bg_pressed.9.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_corners_bg_nor.xml",
@@ -388,6 +544,10 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\setting.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_spinner_ab_holo_light.xml"
     },
@@ -398,6 +558,10 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\location_tips.9.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\location_tips.9.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\send_btn_normal.9.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\send_btn_normal.9.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\news_tab_item_bg_select.9.png",

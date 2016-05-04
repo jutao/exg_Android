@@ -5,4 +5,20 @@
     <color name="crop__selector_pressed">#1a000000</color>
     <color name="crop__selector_focused">#77000000</color>
 
+
+    <color name="ycl_black_60">#aa000000</color>
+    <color name="ycl_black_20">#33000000</color>
+    <color name="ycl_white">#FFFFFFFF</color>
+    <color name="ycl_content_color">#ededeb</color>
+    <color name="ycl_main_text">#353535</color>
+    <color name="ycl_content_color_press">#BCBCBC</color>
+    <color name="ycl_center_grey">#8E8E8E</color>
+    <!-- crop image view -->
+    <color name="ycl_base">#FFFFFB</color>
+    <color name="ycl_overlay">#AA1C1C1C</color>
+    <color name="ycl_text">#1C1C1C</color>
+    <color name="ycl_handle">#86C166</color>
+    <color name="ycl_frame">#86C166</color>
+    <color name="ycl_guide">#AA86C166</color>
+    <color name="ycl_menu_bg">#FFFFFB</color>
 </resources>

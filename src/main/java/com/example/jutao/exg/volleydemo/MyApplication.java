@@ -19,7 +19,6 @@ import com.example.jutao.exg.util.JudgeLogin;
 public class MyApplication extends Application {
   //新建一个请求队列
   public static RequestQueue queues;
-  public static String adress;
   public static User user=null;
   @Override public void onCreate() {
     super.onCreate();
@@ -29,10 +28,6 @@ public class MyApplication extends Application {
 
   public static RequestQueue getHttpQueues() {
     return queues;
-  }
-
-  public static String getAdress() {
-    return adress;
   }
 
   public static User getUserInstance() {

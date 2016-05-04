@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ycl_content_color" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ycl_upload_headimg"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="20dip"
+        android:textColor="@color/ycl_main_text" />
+
+   
+
+        <TextView
+            android:id="@+id/tv_take_picture"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:textColor="@color/ycl_center_grey"
+            android:text="@string/ycl_take_picture"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:background="@drawable/up_image_dialog_tv_bg"
+            android:paddingLeft="20dip" />
+        
+        <TextView
+            android:id="@+id/tv_choose_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+             android:background="@drawable/up_image_dialog_tv_bg"
+            android:textColor="@color/ycl_center_grey"
+            android:text="@string/ycl_choose_gallery"
+            android:textSize="17sp"
+             android:paddingLeft="20dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dip" >
+        </LinearLayout>
+
+</LinearLayout>

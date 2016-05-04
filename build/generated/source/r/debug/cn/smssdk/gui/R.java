@@ -47,32 +47,32 @@ public final class R {
 		public static final int smssdk_white = 0x7f0d000f;
 	}
 	public static final class drawable {
-		public static final int smssdk_back_arrow = 0x7f020092;
-		public static final int smssdk_back_arrow2 = 0x7f020093;
-		public static final int smssdk_btn_disenable = 0x7f020094;
-		public static final int smssdk_btn_enable = 0x7f020095;
-		public static final int smssdk_cl_divider = 0x7f020096;
-		public static final int smssdk_clear_search = 0x7f020097;
-		public static final int smssdk_corners_bg = 0x7f020098;
-		public static final int smssdk_corners_bg_nor = 0x7f020099;
-		public static final int smssdk_corners_bg_pre = 0x7f02009a;
-		public static final int smssdk_country_bg_selector = 0x7f02009b;
-		public static final int smssdk_country_group_scroll_down = 0x7f02009c;
-		public static final int smssdk_country_group_scroll_up = 0x7f02009d;
-		public static final int smssdk_cp_default_avatar = 0x7f02009e;
-		public static final int smssdk_default_avatar = 0x7f02009f;
-		public static final int smssdk_dialog_back = 0x7f0200a0;
-		public static final int smssdk_dialog_bg = 0x7f0200a1;
-		public static final int smssdk_dialog_btn_back = 0x7f0200a2;
-		public static final int smssdk_dialog_btn_nor = 0x7f0200b9;
-		public static final int smssdk_dialog_btn_pre = 0x7f0200ba;
-		public static final int smssdk_edittext_bg_selector = 0x7f0200a3;
-		public static final int smssdk_input_bg_focus = 0x7f0200a4;
-		public static final int smssdk_input_bg_normal = 0x7f0200a5;
-		public static final int smssdk_input_bg_special_focus = 0x7f0200a6;
-		public static final int smssdk_input_bg_special_normal = 0x7f0200a7;
-		public static final int smssdk_search_icon = 0x7f0200a8;
-		public static final int smssdk_sharesdk_icon = 0x7f0200a9;
+		public static final int smssdk_back_arrow = 0x7f0200a5;
+		public static final int smssdk_back_arrow2 = 0x7f0200a6;
+		public static final int smssdk_btn_disenable = 0x7f0200a7;
+		public static final int smssdk_btn_enable = 0x7f0200a8;
+		public static final int smssdk_cl_divider = 0x7f0200a9;
+		public static final int smssdk_clear_search = 0x7f0200aa;
+		public static final int smssdk_corners_bg = 0x7f0200ab;
+		public static final int smssdk_corners_bg_nor = 0x7f0200ac;
+		public static final int smssdk_corners_bg_pre = 0x7f0200ad;
+		public static final int smssdk_country_bg_selector = 0x7f0200ae;
+		public static final int smssdk_country_group_scroll_down = 0x7f0200af;
+		public static final int smssdk_country_group_scroll_up = 0x7f0200b0;
+		public static final int smssdk_cp_default_avatar = 0x7f0200b1;
+		public static final int smssdk_default_avatar = 0x7f0200b2;
+		public static final int smssdk_dialog_back = 0x7f0200b3;
+		public static final int smssdk_dialog_bg = 0x7f0200b4;
+		public static final int smssdk_dialog_btn_back = 0x7f0200b5;
+		public static final int smssdk_dialog_btn_nor = 0x7f0200ce;
+		public static final int smssdk_dialog_btn_pre = 0x7f0200cf;
+		public static final int smssdk_edittext_bg_selector = 0x7f0200b6;
+		public static final int smssdk_input_bg_focus = 0x7f0200b7;
+		public static final int smssdk_input_bg_normal = 0x7f0200b8;
+		public static final int smssdk_input_bg_special_focus = 0x7f0200b9;
+		public static final int smssdk_input_bg_special_normal = 0x7f0200ba;
+		public static final int smssdk_search_icon = 0x7f0200bb;
+		public static final int smssdk_sharesdk_icon = 0x7f0200bc;
 	}
 	public static final class raw {
 		public static final int libs = 0x7f060000;
@@ -221,7 +221,7 @@ public final class R {
 		public static final int smssdk_your_ccount_is_verified = 0x7f070098;
 	}
 	public static final class style {
-		public static final int AppTheme = 0x7f0b0041;
-		public static final int CommonDialog = 0x7f0b0043;
+		public static final int AppTheme = 0x7f0b0042;
+		public static final int CommonDialog = 0x7f0b0044;
 	}
 }

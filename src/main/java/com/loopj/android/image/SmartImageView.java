@@ -5,10 +5,11 @@ import android.graphics.Bitmap;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
+import com.de.hdodenhof.circleimageview.CircleImageView;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class SmartImageView extends ImageView {
+public class SmartImageView extends CircleImageView {
     private static final int LOADING_THREADS = 4;
     private static ExecutorService threadPool = Executors.newFixedThreadPool(LOADING_THREADS);
 

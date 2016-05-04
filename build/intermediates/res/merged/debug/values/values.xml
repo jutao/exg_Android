@@ -357,6 +357,20 @@
     <color name="smssdk_lv_tv_color">#ff353535</color>
     <color name="smssdk_transparent">#00000000</color>
     <color name="smssdk_white">#ffffffff</color>
+    <color name="ycl_base">#FFFFFB</color>
+    <color name="ycl_black_20">#33000000</color>
+    <color name="ycl_black_60">#aa000000</color>
+    <color name="ycl_center_grey">#8E8E8E</color>
+    <color name="ycl_content_color">#ededeb</color>
+    <color name="ycl_content_color_press">#BCBCBC</color>
+    <color name="ycl_frame">#86C166</color>
+    <color name="ycl_guide">#AA86C166</color>
+    <color name="ycl_handle">#86C166</color>
+    <color name="ycl_main_text">#353535</color>
+    <color name="ycl_menu_bg">#FFFFFB</color>
+    <color name="ycl_overlay">#AA1C1C1C</color>
+    <color name="ycl_text">#1C1C1C</color>
+    <color name="ycl_white">#FFFFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr format="dimension" name="itemPadding"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionBarWindow"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowSplitActionBar"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/></declare-styleable>
@@ -364,6 +378,7 @@
     <declare-styleable name="ActionMenuView"/>
     <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/></declare-styleable>
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/></declare-styleable>
     <declare-styleable name="CompatTextView"><attr format="reference|boolean" name="textAllCaps"/></declare-styleable>
     <declare-styleable name="LinearLayoutICS"><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
@@ -374,6 +389,7 @@
     <declare-styleable name="Spinner"><attr format="reference" name="prompt"/><attr format="enum" name="spinnerMode"><enum name="dialog" value="0"/><enum name="dropdown" value="1"/></attr><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr format="reference" name="popupPromptView"/><attr name="android:gravity"/><attr format="boolean" name="disableChildrenWhenDisabled"/></declare-styleable>
     <declare-styleable name="Theme"><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="popupMenuStyle"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="scv_CropImageView"><attr format="reference" name="scv_img_src"/><attr name="scv_crop_mode"><enum name="fit_image" value="0"/><enum name="ratio_4_3" value="1"/><enum name="ratio_3_4" value="2"/><enum name="square" value="3"/><enum name="ratio_16_9" value="4"/><enum name="ratio_9_16" value="5"/><enum name="free" value="6"/><enum name="custom" value="7"/><enum name="circle" value="8"/><enum name="circle_square" value="9"/></attr><attr format="reference|color" name="scv_background_color"/><attr format="reference|color" name="scv_overlay_color"/><attr format="reference|color" name="scv_frame_color"/><attr format="reference|color" name="scv_handle_color"/><attr format="reference|color" name="scv_guide_color"/><attr name="scv_guide_show_mode"><enum name="show_always" value="1"/><enum name="show_on_touch" value="2"/><enum name="not_show" value="3"/></attr><attr name="scv_handle_show_mode"><enum name="show_always" value="1"/><enum name="show_on_touch" value="2"/><enum name="not_show" value="3"/></attr><attr format="dimension" name="scv_handle_size"/><attr format="dimension" name="scv_touch_padding"/><attr format="dimension" name="scv_min_frame_size"/><attr format="dimension" name="scv_frame_stroke_weight"/><attr format="dimension" name="scv_guide_stroke_weight"/><attr format="boolean" name="scv_crop_enabled"/><attr format="float" name="scv_initial_frame_scale"/><attr format="boolean" name="scv_animation_enabled"/><attr format="integer" name="scv_animation_duration"/><attr format="boolean" name="scv_handle_shadow_enabled"/></declare-styleable>
     <dimen name="abc_action_bar_default_height">48dip</dimen>
     <dimen name="abc_action_bar_icon_vertical_padding">8dip</dimen>
     <dimen name="abc_action_bar_progress_bar_size">40dp</dimen>
@@ -397,6 +413,7 @@
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
+    <dimen name="ycl_ll_option_height">48dip</dimen>
     <drawable name="smssdk_dialog_btn_nor">#00000000</drawable>
     <drawable name="smssdk_dialog_btn_pre">#ff282a2b</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -581,6 +598,19 @@
     <string name="smssdk_your_ccount_is_verified">验证成功</string>
     <string name="user_id">用户账号</string>
     <string name="usertype">已认证资格</string>
+    <string name="ycl_choose_gallery">从手机相册选择</string>
+    <string name="ycl_crop_image_title">裁剪照片</string>
+    <string name="ycl_take_picture">拍照</string>
+    <string name="ycl_upload_headimg">上传头像</string>
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowFrame">@null</item>
+    <item name="android:backgroundDimEnabled">true</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsTranslucent">true</item>
+  </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
     <!-- Customize your theme here. -->
   </style>

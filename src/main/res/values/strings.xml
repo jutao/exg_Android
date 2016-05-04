@@ -20,4 +20,8 @@
   <string name="categry">是否维修员</string>
   <string name="usertype">已认证资格</string>
   <string name="out_login">退出登录</string>
+  <string name="ycl_crop_image_title">裁剪照片</string>
+  <string name="ycl_upload_headimg">上传头像</string>
+  <string name="ycl_take_picture">拍照</string>
+  <string name="ycl_choose_gallery">从手机相册选择</string>
 </resources>
