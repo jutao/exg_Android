@@ -6,13 +6,14 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 import com.alibaba.fastjson.JSON;
+import com.example.jutao.exg.AuthActivity;
 import com.example.jutao.exg.MainActivity;
 import com.example.jutao.exg.R;
 import com.example.jutao.exg.base.BasePager;
@@ -25,7 +26,6 @@ import com.example.jutao.exg.util.PrefUtils;
 import com.example.jutao.exg.util.UpdateUser;
 import com.example.jutao.exg.view.NoScroViewPager;
 import com.example.jutao.exg.volleydemo.MyApplication;
-import com.isseiaoki.simplecropview.util.Logger;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.qiniu.android.http.ResponseInfo;
 import com.qiniu.android.storage.UpCompletionHandler;
@@ -44,6 +44,9 @@ public class ContentFragment extends BaseFragment implements OnChoosePictureList
   NoScroViewPager mViewPager;
   RadioGroup mRadioGroup;
   int thisPosition = 0;
+  RadioButton rbHome;
+  RadioButton rbSet;
+
 
   private enum PageNumber {HOMEPAGE, SMARTSERVICEPAGE, SETTINGPAGE}
 
@@ -79,6 +82,8 @@ public class ContentFragment extends BaseFragment implements OnChoosePictureList
     View view = View.inflate(mActivity, R.layout.fragment_content, null);
     mViewPager = (NoScroViewPager) view.findViewById(R.id.novp_content);
     mRadioGroup = (RadioGroup) view.findViewById(R.id.rg_content);
+    rbHome=(RadioButton)view.findViewById(R.id.rb_home);
+    rbSet=(RadioButton)view.findViewById(R.id.rb_set);
 
     return view;
   }
@@ -191,13 +196,33 @@ public class ContentFragment extends BaseFragment implements OnChoosePictureList
     @Override public void onCheckedChanged(RadioGroup group, int checkedId) {
       switch (checkedId) {
         case R.id.rb_home:
+          //完美禁用viewpager手动滑动，否则会有冲突
+          mViewPager.setIsCanScroll(true);
           mViewPager.setCurrentItem(0, false);//参数2代表是否有滑动动画,性能考虑填false
+          mViewPager.setIsCanScroll(false);
           break;
         case R.id.rb_smart:
-          mViewPager.setCurrentItem(1, false);
+          if(MyApplication.getUserInstance().getCategory().equals("1")){
+            mViewPager.setIsCanScroll(true);
+            mViewPager.setCurrentItem(1, false);
+            mViewPager.setIsCanScroll(false);
+          }else {
+            if(thisPosition==0){
+              rbHome.setChecked(true);
+            }else if(thisPosition==2){
+              rbSet.setChecked(true);
+            }
+
+            Intent intent=new Intent(mActivity, AuthActivity.class);
+            mActivity.startActivity(intent);
+
+          }
+
           break;
         case R.id.rb_set:
+          mViewPager.setIsCanScroll(true);
           mViewPager.setCurrentItem(2, false);
+          mViewPager.setIsCanScroll(false);
           break;
       }
     }
@@ -234,14 +259,9 @@ public class ContentFragment extends BaseFragment implements OnChoosePictureList
       BasePager basePager = mBasePagers.get(position);
       basePager.initData();
 
-      //首页和设置页侧边栏禁用
-      if (position == mBasePagers.size() - 1||position==0) {
-        setSlideMenuEnable(false);
-      } else {
-        setSlideMenuEnable(true);
-      }
+      //侧边栏禁用
+      setSlideMenuEnable(false);
     }
-
     @Override public void onPageScrollStateChanged(int state) {
 
     }

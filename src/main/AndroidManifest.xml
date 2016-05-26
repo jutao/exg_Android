@@ -12,6 +12,7 @@
   <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
   <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+  <uses-permission android:name="android.permission.CALL_PHONE"/>
   <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
   <!-- 用于读取手机当前的状态-->
   <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
@@ -55,17 +56,28 @@
     <activity android:name=".RegActivity"/>
     <activity android:name=".NeckActivity"/>
     <activity android:name=".talk.TalkActivity"/>
+    <activity android:name=".WebViewActivity"/>
+    <activity android:name=".TaskActivity"/>
+    <activity android:name=".AuthActivity"/>
+    <activity
+        android:name=".QualificatActivity"
+        android:theme="@android:style/Theme.Translucent"
+        />
     <activity
         android:name="com.mob.tools.MobUIShell"
         android:configChanges="keyboardHidden|orientation|screenSize"
         android:theme="@android:style/Theme.Translucent.NoTitleBar"
         android:windowSoftInputMode="stateHidden|adjustResize"/>
-
+    <activity android:name=".Order_ListActivity"/>
+    <activity android:name=".Task_ListActivity"/>
+    <activity android:name=".AlerdyActivity"/>
+    <activity android:name=".CommentActivity"/>
     <service
         android:name="com.baidu.location.f"
         android:enabled="true"
         android:process=":remote">
     </service>
+    <service android:name=".androidservice.TaskService"/>
   </application>
 
 </manifest>

@@ -10,6 +10,15 @@ import android.view.MotionEvent;
  */
 public class NoScroViewPager extends ViewPager {
 
+
+  private boolean isCanScroll=false;
+  public boolean isCanScroll() {
+    return isCanScroll;
+  }
+
+  public void setIsCanScroll(boolean isCanScroll) {
+    this.isCanScroll = isCanScroll;
+  }
   public NoScroViewPager(Context context) {
     super(context);
   }
@@ -19,7 +28,13 @@ public class NoScroViewPager extends ViewPager {
   }
 
   @Override public boolean onTouchEvent(MotionEvent ev) {
-    //触摸控件什么也不做
     return true;
+  }
+
+  @Override
+  public void scrollTo(int x, int y){
+    if (isCanScroll){
+      super.scrollTo(x, y);
+    }
   }
 }

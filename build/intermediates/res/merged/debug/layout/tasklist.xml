@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/res/com.example.jutao.exg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+  <com.example.jutao.exg.view.ToggleButton
+      android:id="@+id/tgbtn_task"
+      android:layout_width="54dp"
+      android:layout_height="30dp"
+      android:layout_marginTop="10dp"
+      toggle:borderWidth="2dp"
+      toggle:offBorderColor="#000"
+      toggle:offColor="#ddd"
+      toggle:onColor="#f00"
+      toggle:spotColor="#00f"
+      />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginBottom="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="10dp"
+      android:background="#30eacb20"
+      ></LinearLayout>
+  <ListView
+      android:id="@+id/list_task_before"
+      android:layout_width="match_parent"
+      android:layout_height="0dip"
+      android:layout_weight="1.0"
+      />
+  <ListView
+      android:id="@+id/list_task_alerdy"
+      android:layout_width="match_parent"
+      android:layout_height="0dip"
+      android:layout_weight="1.0"
+      android:visibility="gone"
+      />
+</LinearLayout>

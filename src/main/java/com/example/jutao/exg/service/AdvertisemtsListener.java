@@ -8,4 +8,5 @@ import java.util.List;
  */
 public interface AdvertisemtsListener {
   public void getAdvertisemts(List<Advertisements> list);
+  public void onFailed();
 }

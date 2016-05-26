@@ -8,6 +8,14 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_setting.xml"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\tasklist.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\tasklist.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_task.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_left_menu.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\fragment_left_menu.xml"
     },
@@ -16,16 +24,16 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_atalk.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_atalk.xml"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\left_menu.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\left_menu.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\left_menu.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\left_menu.xml"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_atalk.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_atalk.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\upload_headimg.xml",
@@ -44,24 +52,28 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\item_to_msg.xml"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_home.xml"
-    },
-    {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\marker_info.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\marker_info.xml"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\marker_info.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\marker_info.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_home.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\list_order_item.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\list_order_item.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service.xml",
@@ -120,12 +132,24 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\tasklist_item.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\tasklist_item.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alerdy.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_alerdy.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -172,12 +196,24 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\layout\\abc_screen_simple.xml"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\service_fragment.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\service_fragment.xml"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\list_task_item.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\list_task_item.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_comment.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\basepager.xml",
@@ -210,6 +246,14 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qualificat.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_qualificat.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\orderlist.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\orderlist.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
@@ -250,6 +294,10 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_auth.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\layout\\activity_auth.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",

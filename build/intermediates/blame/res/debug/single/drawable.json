@@ -44,16 +44,16 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\chat_bg_default.jpg"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_country_group_scroll_down.xml"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\me.jpg",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\me.jpg"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_point_gray.xml",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\shape_point_gray.xml"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\me.jpg",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\me.jpg"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\SMSSDKGUI-2.0.2\\res\\drawable\\smssdk_country_group_scroll_down.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\login_password.png",
@@ -260,6 +260,10 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\newscenter.png"
     },
     {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\services_01.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\services_01.png"
+    },
+    {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\home.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\home.png"
     },
@@ -388,8 +392,8 @@
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0-alpha2\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\a02.jpg",
-        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\a02.jpg"
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\jiantou.png",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\jiantou.png"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\smartservice_press.png",
@@ -446,6 +450,10 @@
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_textsize.png",
         "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\icon_textsize.png"
+    },
+    {
+        "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\service_button.xml",
+        "source": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\src\\main\\res\\drawable\\service_button.xml"
     },
     {
         "merged": "F:\\AndroidStudio\\Android\\workspace\\MyApplication\\exg\\build\\intermediates\\res\\merged\\debug\\drawable\\crop_image_cancel.png",

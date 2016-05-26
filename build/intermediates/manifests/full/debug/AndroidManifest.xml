@@ -17,6 +17,7 @@
     <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <!-- 用于读取手机当前的状态 -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -59,17 +60,28 @@
         <activity android:name="com.example.jutao.exg.RegActivity" />
         <activity android:name="com.example.jutao.exg.NeckActivity" />
         <activity android:name="com.example.jutao.exg.talk.TalkActivity" />
+        <activity android:name="com.example.jutao.exg.WebViewActivity" />
+        <activity android:name="com.example.jutao.exg.TaskActivity" />
+        <activity android:name="com.example.jutao.exg.AuthActivity" />
+        <activity
+            android:name="com.example.jutao.exg.QualificatActivity"
+            android:theme="@android:style/Theme.Translucent" />
         <activity
             android:name="com.mob.tools.MobUIShell"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.example.jutao.exg.Order_ListActivity" />
+        <activity android:name="com.example.jutao.exg.Task_ListActivity" />
+        <activity android:name="com.example.jutao.exg.AlerdyActivity" />
+        <activity android:name="com.example.jutao.exg.CommentActivity" />
 
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
             android:process=":remote" >
         </service>
+        <service android:name="com.example.jutao.exg.androidservice.TaskService" />
     </application>
 
 </manifest>

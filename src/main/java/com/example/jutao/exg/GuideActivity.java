@@ -60,7 +60,8 @@ public class GuideActivity extends Activity {
     //观察者设计模式
     ivRedPoint.getViewTreeObserver()
         .addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-          @TargetApi(Build.VERSION_CODES.JELLY_BEAN) @Override
+          @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+          @Override
           public void onGlobalLayout() {//layout方法执行结束后的回调
 
             //移除监听，避免重复回调

@@ -57,7 +57,7 @@ public class CropImageViewActivity extends Activity {
             }
             bitmap = ImageTools.zoomBitmap(bitmap, TO_SERVER_IMAGE_WIDTH, TO_SERVER_IMAGE_HEIGHT);
             cropImageView.setImageBitmap(bitmap);
-            cropImageView.setCropMode(CropImageView.CropMode.FREE);
+            cropImageView.setCropMode(CropImageView.CropMode.RATIO_3_4);
 
         }
     }

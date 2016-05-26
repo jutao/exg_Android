@@ -13,6 +13,7 @@
       android:layout_marginLeft="10dp"
       android:background="@null"
       android:src="@drawable/icon_pic_list_type"
+      android:visibility="gone"
       />
   <TextView
       android:id="@+id/tv_title"

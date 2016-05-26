@@ -1,14 +1,5 @@
 package com.example.jutao.exg.talk;
 
-import com.example.jutao.exg.R;
-import com.example.jutao.exg.talk.bean.ChatMessage;
-import com.example.jutao.exg.util.Config;
-import com.example.jutao.exg.volleydemo.MyApplication;
-import com.loopj.android.image.SmartImage;
-import com.loopj.android.image.SmartImageView;
-import java.text.SimpleDateFormat;
-import java.util.List;
-
 import android.content.Context;
 import android.text.Html;
 import android.view.LayoutInflater;
@@ -16,6 +7,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import com.example.jutao.exg.R;
+import com.example.jutao.exg.talk.bean.ChatMessage;
+import com.example.jutao.exg.util.Config;
+import com.example.jutao.exg.volleydemo.MyApplication;
+import com.loopj.android.image.SmartImageView;
+import java.text.SimpleDateFormat;
+import java.util.List;
 
 public class ChatMessageAdapter extends BaseAdapter {
   private LayoutInflater mInflater;

@@ -2,27 +2,25 @@ package com.example.jutao.exg.base.impl;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 import com.example.jutao.exg.LoginActivity;
+import com.example.jutao.exg.NeckActivity;
+import com.example.jutao.exg.QualificatActivity;
 import com.example.jutao.exg.R;
 import com.example.jutao.exg.base.BasePager;
 import com.example.jutao.exg.bean.User;
 import com.example.jutao.exg.dialog.GenderDialog;
 import com.example.jutao.exg.fragment.BaseFragment;
-import com.example.jutao.exg.talk.TalkActivity;
 import com.example.jutao.exg.util.Config;
 import com.example.jutao.exg.util.PrefUtils;
 import com.example.jutao.exg.volleydemo.MyApplication;
-import com.example.jutao.exg.NeckActivity;
 import com.loopj.android.image.SmartImageView;
 import com.ycl.chooseavatar.library.UpLoadHeadImageDialog;
-import java.io.Serializable;
 
 /**
  * 我的账号
@@ -41,6 +39,7 @@ public class SettingPage extends BasePager {
   //private RelativeLayout rl_Myadress;
   private RelativeLayout rl_Gender;
   private RelativeLayout rl_Neck_name;
+  private RelativeLayout rlQualificat;
 
   private SmartImageView smart_Head_image;
   private TextView tv_Neck_name;
@@ -70,6 +69,19 @@ public class SettingPage extends BasePager {
     tv_Gender = (TextView) view.findViewById(R.id.tv_gender);
     tv_Category = (TextView) view.findViewById(R.id.tv_category);
     tv_User_type = (TextView) view.findViewById(R.id.tv_user_type);
+    rlQualificat=(RelativeLayout)view.findViewById(R.id.rl_qualificat);
+    rlQualificat.setOnClickListener(new View.OnClickListener() {
+      @Override public void onClick(View v) {
+        if(Config.StringNoEmpty(MyApplication.getUserInstance().getQualificat())&&
+            MyApplication.getUserInstance().getCategory().equals("1")){
+          Intent intent=new Intent(mActivity, QualificatActivity.class);
+          intent.putExtra("qualificat",MyApplication.getUserInstance().getQualificat());
+          mActivity.startActivity(intent);
+        }else{
+          Toast.makeText(mActivity,"您还不是维修员",Toast.LENGTH_LONG).show();
+        }
+      }
+    });
 
     out_login.setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
@@ -77,6 +89,8 @@ public class SettingPage extends BasePager {
         PrefUtils.setString(mActivity, "username", "");
         PrefUtils.setString(mActivity, "password", "");
         PrefUtils.setString(mActivity, "userInfo", "");
+        PrefUtils.setString(mActivity, "taskid", "");
+
         Intent intent = new Intent(mActivity, LoginActivity.class);
         mActivity.startActivity(intent);
         mActivity.finish();

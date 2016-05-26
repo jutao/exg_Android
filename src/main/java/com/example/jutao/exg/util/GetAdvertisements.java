@@ -40,7 +40,8 @@ public class GetAdvertisements {
       }
     }, new Response.ErrorListener() {
       @Override public void onErrorResponse(VolleyError volleyError) {
-
+        if(listener!=null)
+          listener.onFailed();
       }
     });
     // 设置标签方便寻找
